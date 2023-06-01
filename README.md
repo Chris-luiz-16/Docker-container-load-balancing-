@@ -5,7 +5,7 @@ This repo is based on common situation on how to load balance multiple container
 
 ## Table of Contents
 
-* [Multiple scenario of Load balancing the containers] 
+* [Multiple scenario of Load balancing the containers] (https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/blob/main/README.md#multiple-scenario-of-load-balancing-the-containers)
 * [Docker command used for single instance multiple container]
 
 
