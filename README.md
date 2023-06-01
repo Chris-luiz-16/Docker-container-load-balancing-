@@ -1,4 +1,4 @@
-# LB-Docker-container-dilemma
+# Docker containers Load balancing
 
 This repo is based on common situation on how to load balance multiple containers either in a single ec2-instance or a single in a multiple ec2-instance.
 **Let's get started**
