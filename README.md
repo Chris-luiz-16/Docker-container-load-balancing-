@@ -6,16 +6,16 @@ This repo is based on common situation on how to load balance multiple container
 ## Table of Contents
 
 * [Differnt scenario of Load balancing the containers](#different-scenario-of-load-balancing-the-containers)
-   * [Single instance multiple container](#single-instance-multiple-container)
-   * [Multiple instance single container](#multiple-instance-single-container)
+   * [Single instance multiple container](#1-single-instance-multiple-container)
+   * [Multiple instance single container](#2-multiple-instance-single-container)
 * [Simple flask hello world to test the load balancing](#simple-flask-hello-world-to-test-the-load-balancing)
 * [Deploying multiple containers and Load balancing in a single EC2 instance](#deploying-multiple-containers-and-load-balancing-in-a-single-ec2-instance)
-  * [Make a Custom Network Bridge](#make-a-custom-network-bridge)
-  * [Creating the containers](#creating-the-containers)
-  * [Time to load balance using the ALB](#time-to-load-balance-using-the-alb)
+  * [Make a Custom Network Bridge](#1-make-a-custom-network-bridge)
+  * [Creating the containers](#2-creating-the-containers)
+  * [Time to load balance using the ALB](#3-time-to-load-balance-using-the-alb)
   * [Route 53 domain point to ALB endpoint](#route-53-domain-point-to-alb-endpoint)
   * [Verification of single instance multiple container setup](#verification-of-single-instance-multiple-container-setup)
-* [Deploying multiple EC2 instances with a container and load balancing it](#deploying-multiple-ec2-instances-with-a-container-and-load-balancing-it)
+* [Deploying multiple ec2-instances with a container and load balancing it](#deploying-multiple-ec2-instances-with-a-container-and-load-balancing-it)
   * [Docker container creation for multiple instance setup](#docker-container-creation-for-multiple-instance-setup)
   * [Load balancing it using the ALB](#load-balancing-it-using-the-alb)
   * [Route 53 domain point to ALB endpoint](#route-53-domain-point-to-alb-endpoint)
@@ -32,6 +32,7 @@ Let's get into the diagram so that you can understand it better
 <br />
 
 ![ALB](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/assets/128575317/01aca5f7-c53b-4d0d-a99f-3cc622bcb3a1)
+
 <br />
 
 ### ***1] Single instance multiple container***
@@ -180,7 +181,7 @@ Here you can see the final output where the domain flask.chrisich.fun is loadbal
 
 <br />
 
-## Deploying multiple ec2-instance with a container and load balancing it
+## Deploying multiple ec2-instances with a container and load balancing it
 
 Here we should have 3 ec2-instance and all the 3 will be having the same flask container running in 5000 port and setting a port publishing to 80 port and then loadbalancing it as eplained in the right side of the diagram  [Different scenario of Load balancing the containers](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#multiple-scenario-of-load-balancing-the-containers)
 
