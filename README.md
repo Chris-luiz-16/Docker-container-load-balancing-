@@ -5,7 +5,7 @@ This repo is based on common situation on how to load balance multiple container
 
 ## Table of Contents
 
-* [Differnt scenario of Load balancing the containers](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#multiple-scenario-of-load-balancing-the-containers)
+* [Differnt scenario of Load balancing the containers](#different-scenario-of-load-balancing-the-containers)
   * [Single instance multiple container](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/#1-single-instance-multiple-container)
   * [Multiple instance single container](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#2-multiple-instance-single-container)
 * [Simple flask hello world to test the load balancing](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#simple-flask-hello-world-to-test-the-load-balancing)
