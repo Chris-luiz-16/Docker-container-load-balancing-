@@ -6,20 +6,21 @@ This repo is based on common situation on how to load balance multiple container
 ## Table of Contents
 
 * [Differnt scenario of Load balancing the containers](#different-scenario-of-load-balancing-the-containers)
-  * [Single instance multiple container](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/#1-single-instance-multiple-container)
-  * [Multiple instance single container](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#2-multiple-instance-single-container)
-* [Simple flask hello world to test the load balancing](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#simple-flask-hello-world-to-test-the-load-balancing)
-* [Deploying multiple containers and Load balancing in a single ec2-instance](https://github.com/Chris-luiz-16/LB-Docker-container-dilemma/edit/main/README.md#deploying-multiple-containers-and-load-balancing-in-a-single-ec2-instance)
-  * [Make a Custom Network Bridge](https://github.com/Chris-luiz-16/Docker-container-load-balancing-#1-make-a-custom-network-bridge)
-  * [Creating the containers ](https://github.com/Chris-luiz-16/Docker-container-load-balancing-#2-creating-the-containers)
-  * [Time to load balance using the ALB](https://github.com/Chris-luiz-16/Docker-container-load-balancing-#3-time-to-load-balance-using-the-alb)
-  * [Route 53 domain point to ALB endpoint](https://github.com/Chris-luiz-16/Docker-container-load-balancing-#route-53-domain-point-to-alb-endpoint)
-  * [ Verification of single instance multiple container setup](https://github.com/Chris-luiz-16/Docker-container-load-balancing-/edit/main/README.md#verification-of-single-instance-multiple-container-setup)
-* [Deploying multiple ec2-instance with a container and load balancin it](https://github.com/Chris-luiz-16/Docker-container-load-balancing-/edit/main/README.md#deploying-multiple-ec2-instance-with-a-container-and-load-balancing-it)
-  *  [Docker container creation for multiple instance setup](https://github.com/Chris-luiz-16/Docker-container-load-balancing-/edit/main/README.md#docker-container-creation-for-multiple-instance-setup)
-  * [Load balancing it using the ALB](https://github.com/Chris-luiz-16/Docker-container-load-balancing-/edit/main/README.md#load-balancing-it-using-the-alb)
-  * [Route 53 domain point to ALB endpoint]()
-  * [Verification](https://github.com/Chris-luiz-16/Docker-container-load-balancing-/edit/main/README.md#verification)
+   * [Single instance multiple container](#single-instance-multiple-container)
+   * [Multiple instance single container](#multiple-instance-single-container)
+* [Simple flask hello world to test the load balancing](#simple-flask-hello-world-to-test-the-load-balancing)
+* [Deploying multiple containers and Load balancing in a single EC2 instance](#deploying-multiple-containers-and-load-balancing-in-a-single-ec2-instance)
+  * [Make a Custom Network Bridge](#make-a-custom-network-bridge)
+  * [Creating the containers](#creating-the-containers)
+  * [Time to load balance using the ALB](#time-to-load-balance-using-the-alb)
+  * [Route 53 domain point to ALB endpoint](#route-53-domain-point-to-alb-endpoint)
+  * [Verification of single instance multiple container setup](#verification-of-single-instance-multiple-container-setup)
+* [Deploying multiple EC2 instances with a container and load balancing it](#deploying-multiple-ec2-instances-with-a-container-and-load-balancing-it)
+  * [Docker container creation for multiple instance setup](#docker-container-creation-for-multiple-instance-setup)
+  * [Load balancing it using the ALB](#load-balancing-it-using-the-alb)
+  * [Route 53 domain point to ALB endpoint](#route-53-domain-point-to-alb-endpoint)
+  * [Verification](#verification)
+
 
 
 
